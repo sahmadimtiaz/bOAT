@@ -29,6 +29,8 @@ nav img#logo-1{
     left: 70px;
 }
 
+
+
 span img#account-1{
     width: 22px;
     height: 22px;
@@ -36,4 +38,40 @@ span img#account-1{
 span img#account-2{
     width: 35px;
     height: 35px;
+}
+
+div.banner-1 img{
+  width: 100%;
+}
+
+div.images-all{
+  /* display: inline-flex; */
+  display: inline-flex;
+  padding-top: 20px;
+
+}
+div.under-1 img{
+  max-width: 50px;
+
+}
+div.under-text p{
+  font-size: 12px;
+
+}
+div.imaged-1{
+  display: flex;
+ 
+}
+div.imaged-2{
+  display: flex;
+ 
+}
+div.imaged-3{
+  display: flex;
+
+}
+div.imaged-4{
+  display: flex;
+  align-items: flex-end;
+  
 }
