@@ -9,9 +9,31 @@
   .para{
     background-color: #eff4f7;
     text-align: center;
-    padding: 9px;
+    padding: 2px;
     font-size: 13px;
     line-height: normal;
     font-weight: 500;
     cursor: pointer;
   }
+nav img#logo-1{
+    position: relative;
+    left: 15px;
+    width: 100px;
+    height: 35px;
+}
+
+
+
+#navbarSupportedContent{
+    position: relative;
+    left: 70px;
+}
+
+span img#account-1{
+    width: 22px;
+    height: 22px;
+}
+span img#account-2{
+    width: 35px;
+    height: 35px;
+}
