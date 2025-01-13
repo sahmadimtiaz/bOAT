@@ -44,8 +44,8 @@ div.banner-1 img{
   width: 100%;
 }
 
-div.images-all{
-  /* display: inline-flex; */
+.images-all{
+
   display: inline-flex;
   padding-top: 20px;
 
@@ -61,31 +61,76 @@ div.under-text p{
 
 }
 div .view-right{
-  font-size: 13px;
+  font-size: 15px;
+  float: inline-end;
+  position: relative;
+  top: 16px;
+  right: 35px;
 }
-div.imaged-1{
-  display: flex;
- 
-  
- 
-}
-div.imaged-2{
-  display: flex;
- 
-}
-div.imaged-3{
-  display: flex;
 
-}
-div.imaged-4{
- display: flex;
+.feature-detail{
+      display: flex;
+     
+  }
   
-  
-}
+
 div.paragraph{
+  padding: 0px 50px;
   font-size: 30px;
 }
+.live::after{
+  content: "";
+  position: absolute;
+  bottom: -16.6rem;
+  left: 10.7rem;
+  width: 25px;
+  height: 2px;
+  background-color: red;
+}
+
+
 
 div.card{
-  display: inline-block;
+  flex-grow: 1;
+}
+.card> img{
+  border-radius: 10px;
+}
+div.box{
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px  
+}
+
+.d-flex{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f6faff;
+  padding: 15px;
+}
+
+
+.p-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f6faff;
+  padding: 15px;
+}
+.p-2 img{
+  width: 57px;
+  height: 54px;
+}
+.p-2 p{
+  font-size: 14px;
+}
+.navbar{
+  background-color: brown;
+}
+.collapse{
+  padding: 13px;
 }
