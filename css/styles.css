@@ -57,8 +57,11 @@ div.under-1 img{
 
 }
 div.under-text p{
-  font-size: 12px;
+  font-size: 14px;
 
+}
+div .view-right{
+  font-size: 13px;
 }
 div.imaged-1{
   display: flex;
@@ -80,8 +83,9 @@ div.imaged-4{
   
 }
 div.paragraph{
-  font-size: 40px;
+  font-size: 30px;
 }
+
 div.card{
   display: inline-block;
 }
