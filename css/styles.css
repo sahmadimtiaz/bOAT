@@ -158,7 +158,6 @@ div.box{
   display: flex;
   position: relative;
   bottom: 25px;
-  /* justify-content: center; */
   background-color: #fcc50b;
   border-radius: 6px;
 }
@@ -172,6 +171,7 @@ div.box{
   position: relative;
   bottom: 30px;
   right: 13px;
+  font-size: 14.5px;
 
 }
 
@@ -182,7 +182,6 @@ div.box{
   position: relative;
   top: 6px;
   left: 56px;
-  /* border: 1px solid black; */
   background-color: #eff4f7;
   width: 48px;
   height: 18px;
@@ -206,5 +205,28 @@ div.box{
 }
 .card-text{
   position: relative;
-  bottom: 30px;
+  bottom: 43px;
+  right: 13px;
+  font-size: 18px;
+}
+.through{
+  display: flex;
+  position: relative;
+  bottom: 60px;
+}
+#through-1{
+  position: relative;
+  top: 2.5px;
+  right: 13px;
+  text-decoration: line-through;
+  color: #a1a1a1;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+
+}
+#through-2{
+  position: relative;
+  top: 2.5px;
+  color: #12b985;
+  font-size: 11px;
 }
