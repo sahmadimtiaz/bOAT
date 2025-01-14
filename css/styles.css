@@ -92,7 +92,7 @@ div.paragraph{
   padding: 0px 50px;
   font-size: 30px;
 }
-.live::after{
+#live::after{
   content: "";
   position: absolute;
   bottom: -16.6rem;
@@ -253,4 +253,50 @@ div.box{
   top: 2.5px;
   color: #12b985;
   font-size: 11px;
+}
+
+.banner-image img{
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  padding: 50px;
+  height: 35vh
+}
+
+#second-paragraph{
+  position: relative;
+  bottom: 140px;
+  padding: 0px 50px;
+  font-size: 30px;
+}
+
+#live-1::after{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 17.5rem;
+  width: 25px;
+  height: 2px;
+  background-color: red;
+}
+
+.second-nav{
+  display: flex;
+  padding: 45px;
+  position: relative;
+  bottom: 10rem;
+}
+.second-nav a{
+  font-size: 16px;
+}
+
+#nav-item-1{
+  font-weight: bold;
+}
+#nav-item-1 a{
+  width: 108px;
+  text-align: center;
+  background-color: #d1cfcf;
+  border-radius: 17px;
+
 }
