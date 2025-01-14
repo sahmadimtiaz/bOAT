@@ -97,11 +97,14 @@ div.card{
   border-radius: 10px;
 }
 div.box{
+  position: relative;
+  bottom: 35px;
   width: 100%;
   padding: 50px;
   display: flex;
   flex-direction: row;
   gap: 5px  
+  
 }
 
 .d-flex{
@@ -135,6 +138,22 @@ div.box{
   padding: 13px;
 }
 
+.card-head{
+  display: flex;
+}
+.card-head p{
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  padding: 0.5px;
+  color: #eff4f7;
+  width: 130px;
+  height: 18px;
+  font-size: 10.7px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  border-radius: 4px;
+}
 .card-star{
   display: flex;
   position: relative;
@@ -145,30 +164,47 @@ div.box{
 }
 .card-star p{
   position: relative;
-  top: 6px;
-  font-size: 11px;
-  
+  top: 7px;
+  left: 4px;
+  font-size: 10px;
+}
+.card-title{
+  position: relative;
+  bottom: 30px;
+  right: 13px;
+
 }
 
 .rating{
+  display: flex;
+  justify-content: center;
+  text-align: center;
   position: relative;
-  top: 4px;
-  left: 40px;
-
+  top: 6px;
+  left: 56px;
   /* border: 1px solid black; */
   background-color: #eff4f7;
   width: 48px;
-  height: 20px;
+  height: 18px;
   border-radius: 4px;
   
 }
 
 .rating img{
-  
   width: 15px;
   height: 15px;
 }
 .star-rate{
   display: inline-block;
   font-size: 12px;
+}
+.dashed-line{
+  position: relative;
+  bottom: 28px;
+  border-top: 1px dashed #a1a1a1;
+  margin: 20px 0px;
+}
+.card-text{
+  position: relative;
+  bottom: 30px;
 }
