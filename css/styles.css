@@ -6,6 +6,7 @@
   body{
     font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
   }
+
   .para{
     background-color: #eff4f7;
     text-align: center;
@@ -14,7 +15,20 @@
     line-height: normal;
     font-weight: 500;
     cursor: pointer;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+   
   }
+ 
+#navigation{
+  position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
 nav img#logo-1{
     position: relative;
     left: 15px;
@@ -88,7 +102,19 @@ div.paragraph{
   background-color: red;
 }
 
-
+.card-toplist p{
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  padding: 0.5px;
+  color: #eff4f7;
+  width: 95px;
+  height: 18px;
+  font-size: 10.7px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  border-radius: 4px;
+}
 
 div.card{
   flex-grow: 1;
@@ -131,9 +157,7 @@ div.box{
 .p-2 p{
   font-size: 14px;
 }
-.navbar{
-  background-color: brown;
-}
+
 .collapse{
   padding: 13px;
 }
