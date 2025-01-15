@@ -12,21 +12,71 @@
     text-align: center;
     padding: 2px;
     font-size: 13px;
-    line-height: normal;
-    font-weight: 500;
+    line-height: 15px;
+    font-weight: 450;
     cursor: pointer;
-    position: sticky;
+    /* position: sticky;
     width: 100%;
     top: 0;
-    z-index: 99;
-   
+    z-index: 99; */
   }
+  .para p{
+    position: relative;
+    top: 6px;
+    letter-spacing: 0.1px;
+  }
+  .navbar-1{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+ /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px){
+          .para{
+            width: 210%;
+            font-size: 25px;
+            padding: 15px 0px;
+            
+          }
+          
+        .navbar-1{
+          width: 210%;
+          padding: 27px;
+          
+        }
+        .navbar-1 img#logo-1{
+          position: relative;
+          left: 4rem;
+        
+          
+        }
+        .navbar-toggler{
+          position: relative;
+          right: 17em;
+        }
+      span .navbar-toggler-icon{
+        width: 17rem;
+        height: 10rem;
+      }
+    
+      }
  
 #navigation{
-  position: sticky;
+  /* position: sticky;
     width: 100%;
     top: 0;
-    z-index: 99;
+    z-index: 99; */
 }
 
 nav img#logo-1{
@@ -43,7 +93,12 @@ nav img#logo-1{
     left: 70px;
 }
 
-
+form img{
+  width: 23px;
+  height: 23px;
+  position: relative;
+  right: 6px;
+}
 
 span img#account-1{
     width: 22px;
@@ -117,7 +172,9 @@ div.paragraph{
 }
 
 div.card{
+  border-radius: 12px;
   flex-grow: 1;
+
 }
 .card> img{
   border-radius: 10px;
@@ -129,9 +186,13 @@ div.box{
   padding: 50px;
   display: flex;
   flex-direction: row;
-  gap: 5px  
-  
+  gap: 5px;
+  border-radius: 6px;
 }
+/* .card{
+  border-radius: 16px;
+}
+  */
 
 .d-flex{
   display: flex;
@@ -183,7 +244,7 @@ div.box{
   position: relative;
   bottom: 25px;
   background-color: #fcc50b;
-  border-radius: 6px;
+  border-radius: 0px 0px 6px 6px;
 }
 .card-star p{
   position: relative;
@@ -209,7 +270,7 @@ div.box{
   background-color: #eff4f7;
   width: 48px;
   height: 18px;
-  border-radius: 4px;
+  border-radius: 6px;
   
 }
 
@@ -284,7 +345,7 @@ div.box{
   display: flex;
   padding: 50px;
   position: relative;
-  bottom: 10rem;
+  bottom: 11rem;
   right: 12px;
 }
 .second-nav a{
@@ -304,7 +365,7 @@ div.box{
 
 .box-item1{
   position: relative;
-  bottom: 14rem;
+  bottom: 16rem;
   width: 100%;
   padding: 50px;
   display: flex;
@@ -323,7 +384,38 @@ div.box{
 
 #third-paragraph{
   position: relative;
-  bottom: 16rem;
+  bottom: 18rem;
   padding: 0px 50px;
   font-size: 30px;
+}
+
+.image-categories{
+  position: relative;
+  bottom: 18rem;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+ align-items: center;
+ padding: 50px;
+}
+.categories-1 a img{
+        margin: auto;
+
+}
+.categories-enter span{
+  text-align: center;
+        font-size: 17px;
+        margin-top: 20px;
+        font-weight: bold;
+        line-height: 1;
+         display: block;
+}
+#live-3::after{
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 17.5rem;
+  width: 25px;
+  height: 2px;
+  background-color: red;
 }
