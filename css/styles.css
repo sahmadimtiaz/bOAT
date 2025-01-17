@@ -43,15 +43,18 @@
   
  /* Extra small devices (phones, 600px and down) */
       @media only screen and (max-width: 600px){
-          .para{
-            width: 210%;
+         body{
+          width: 100%;
+         } 
+        .para{
+          
             font-size: 25px;
             padding: 15px 0px;
             
           }
           
         .navbar-1{
-          width: 210%;
+         
           padding: 27px;
           
         }
@@ -507,7 +510,7 @@ div.box{
 
 .box-item3{
   position: relative;
-  bottom: 25rem;
+  bottom: 27rem;
   width: 100%;
   padding: 50px;
   display: flex;
@@ -672,7 +675,7 @@ bottom: 80px;
 }
 #fourth-paragraph{
   position: relative;
-  bottom: 24rem;
+  bottom: 26rem;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -692,7 +695,7 @@ bottom: 80px;
   justify-content: center;
   gap: 19px;
   position: relative;
-  bottom: 27rem;
+  bottom: 29rem;
   
 }
 .shop-image img{
@@ -724,3 +727,67 @@ bottom: 80px;
   display: flex;
   justify-content: center;
 }
+
+#live-7::after{
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 12.4rem;
+  width: 25px;
+  height: 2px;
+  background-color: red;
+}
+#sixth-paragraph{
+  position: relative;
+  bottom: 31rem;
+  padding: 0px 50px;
+  font-size: 30px;
+}
+
+.fourth-nav{
+  display: flex;
+  padding: 50px;
+  position: relative;
+  bottom: 33rem;
+  right: 12px;
+}
+
+#nav-item-3{
+  font-weight: bold;
+  
+}
+#nav-item-3 a{
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  background-color: #d1cfcf;
+  border-radius: 17px;
+
+}
+
+div.box-5{
+    position: relative;
+    bottom: 38rem;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 6px;
+  }
+  #eight-paragraph{
+    position: relative;
+    bottom: 39rem;
+    padding: 0px 50px;
+    font-size: 30px;
+  }
+#live-8::after{
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 12.8rem;
+  width: 25px;
+  height: 2px;
+  background-color: red;
+}
+
