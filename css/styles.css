@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
   }
   body{
     font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
@@ -40,46 +41,12 @@
     justify-content: space-between;
     padding: 10px;
   }
-  
- /* Extra small devices (phones, 600px and down) */
-      @media only screen and (max-width: 600px){
-         body{
-          width: 100%;
-         } 
-        .para{
-          
-            font-size: 25px;
-            padding: 15px 0px;
-            
-          }
-          
-        .navbar-1{
-         
-          padding: 27px;
-          
-        }
-        .navbar-1 img#logo-1{
-          position: relative;
-          left: 4rem;
-        
-          
-        }
-        .navbar-toggler{
-          position: relative;
-          right: 17em;
-        }
-      span .navbar-toggler-icon{
-        width: 17rem;
-        height: 10rem;
-      }
-    
-      }
  
 #navigation{
-  /* position: sticky;
+  position: sticky;
     width: 100%;
     top: 0;
-    z-index: 99; */
+    z-index: 99;
 }
 
 nav img#logo-1{
@@ -983,12 +950,18 @@ div.box-5{
   background-color: red;
 }
 
+.testimonial-main{
+  padding: 50px;
+  position: relative;
+  bottom: 49rem;
+}
 
 .testimonial {
+ width: 100%;
   display: flex;
   align-items: center;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 50px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -1001,11 +974,17 @@ div.box-5{
   background-color: #d3dbe0; /* Matches the background color */
   padding: 20px;
   border-radius: 8px;
+
 }
 
 .testimonial-logo img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+        height: 250px;
+        background: #d0d9de;
+        display: flex
+;
+        align-items: center;
+        justify-content: center
 }
 
 .testimonial-text {
@@ -1019,13 +998,28 @@ div.box-5{
 
 .testimonial-text .quote-icon {
   font-size: 24px;
-  color: #666;
+}
+
+.testimonial-text p{
+  max-width: 450px;
+  margin: auto;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .testimonial-navigation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+position: relative;
+top: 30px;
+left: 24rem;
+}
+
+.quote-icon img{
+  position: relative;
+  left: 25rem;
+  bottom: 3rem;
+  width: 50px;
+  height: 50px;
+  transform: translate(0.352 -0.468);
 }
 
 .nav-btn {
@@ -1038,8 +1032,11 @@ div.box-5{
   font-size: 16px;
   color: #555;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .nav-btn:hover {
   background-color: #ddd;
 }
+
+
