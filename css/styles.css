@@ -1017,43 +1017,4 @@ left: 24rem;
 .nav-btn:hover {
   background-color: #ddd;
 }
-.main-footer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 50px;
-  background-color: #e7f0f5;
-}
-.footer-container{
-}
-.footer-para> p{
-  position: relative;
-  left: 9rem;
-}
-.footer-item{
-  display: flex;
-  gap: 20px;
-}
-.footer-unorder{
-  position: relative;
-  top: 3rem;
-  left: 5rem;
-}
-.footer-unorder a{
-  color: black;
-text-decoration: none;
-}
-.signup-para{
-  display: block;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  opacity: 1;
-  color: #293036;
-  line-height: normal;
-}
-
-.svg img{
-  width: 20px;
-  height:20px;
-}
 
