@@ -1026,7 +1026,7 @@ left: 24rem;
 
 
 footer {
-  background-color: #f0f0f0;
+  background-color: #eff4f7;
   padding: 20px 0;
   position: relative;
   bottom: 47rem;
@@ -1043,7 +1043,7 @@ footer {
 .footer-logo{
 position: relative;
 top: 50px;
-right: 18px;
+right: 9rem;
 }
 .arrow-para p{
   font-size: 28px;
@@ -1057,7 +1057,7 @@ right: 18px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 9px;
-  width: 22rem;
+  width: 20rem;
   height: 3rem;
 }
 
@@ -1071,6 +1071,9 @@ right: 18px;
 } 
 
 .column {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   margin-top: 20px;
 }
 
@@ -1089,10 +1092,17 @@ right: 18px;
 }
 
 .column ul li a {
-  font-size: 13px;
+  position: relative;
+  top: 23px;
+  right: 3.1rem;
+  font-size: 10.5px;
   color: #333;
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+#column-3 h4{
+  position: relative;
+  left: 30px;
 }
 
 @media screen and (max-width: 768px) {
