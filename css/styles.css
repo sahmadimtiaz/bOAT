@@ -10,8 +10,317 @@
 
   @media only screen and (max-width: 600px) {
     body{
-      width: 100;
+      width: 100%;
     }
+   
+    #navigation #logo-1{
+      /* display: none; */
+      position: relative;
+      left: 45px;
+      width: 63px;
+      height: 50px;
+    }
+    .navbar-light{
+      display: none;
+    }
+    .navbar-toggler-icon{
+      position: relative;
+      right: 12rem;
+    }
+    .form-inline-1 .form-control-1{
+      display: none;
+      width: auto;
+      vertical-align: middle;   
+    }
+    .form-inline-1 img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      bottom: 2px;
+       left: 6.5rem;
+    }
+    .navbar-light .navbar-toggler{
+      border: none;
+    }
+   div.paragraph{
+    position: relative;
+    right: 33px;
+    width: 100%;
+   }
+   .view-right{
+    position: relative;
+    left: 50px;
+   }
+   .box{
+     padding: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: .4rem;
+}
+.card{
+  flex-basis: 120px;
+  max-width: 50%;
+}
+.card-head .head-p{
+  width: 90px;
+}
+.card-head p b{
+  font-size: 7px;
+}
+.card-toplist .merge{
+  width: 70px;
+}
+.merge b{
+  font-size: 8px;
+}
+.card-star{
+  position: relative;
+  top: -19px;
+  width: 151.5px;
+  height: 24px;
+}
+.card-star> p b{
+  position: relative;
+  bottom: 3px;
+ font-size: 8px;
+  
+}
+.card-star .rating{
+  width: 21px;
+  height: 10px;
+}
+.card-star .rating img{
+  width: 9px;
+  height: 9px;
+}
+.card-star .rating .star-rate{
+  font-size: 8px;
+}
+.card-title strong{
+  font-size: 10px;
+  font-weight: 700;
+}
+#second-paragraph{
+  padding: 0px 0px;
+  position: relative;
+  right: 40px;
+}
+.second-nav{
+  overflow: hidden;
+}
+  }
+  @media only screen and (min-width: 600px) {
+    body{
+      width: 100%;
+    }
+   
+    #navigation #logo-1{
+      /* display: none; */
+      position: relative;
+      left: 20rem;
+      width: 95px;
+      height: 50px;
+    }
+    .navbar-light{
+      display: none;
+    }
+    .navbar-toggler-icon{
+      position: relative;
+      right: 16rem;
+    }
+    .form-inline-1 .form-control-1{
+      display: none;
+      width: auto;
+      vertical-align: middle;   
+    }
+    .form-inline-1 img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      bottom: 2px;
+       left: 10rem;
+    }
+    .navbar-light .navbar-toggler{
+      border: none;
+    }
+   div.paragraph{
+    position: relative;
+    right: 33px;
+    width: 100%;
+   }
+   .view-right{
+    position: relative;
+    left: 50px;
+   }
+   .box{
+     padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+.card{
+  flex-basis: 210px;
+  max-width: 100%;
+}
+.card-head .head-p{
+  width: 90px;
+}
+.card-head p b{
+  font-size: 7px;
+}
+.card-toplist .merge{
+  width: 70px;
+}
+.merge b{
+  font-size: 8px;
+}
+.card-star{
+  position: relative;
+  top: -19px;
+  width: 212.5px;
+  height: 24px;
+}
+.card-star> p b{
+  position: relative;
+  bottom: 3px;
+ font-size: 8px;
+  
+}
+.card-star .rating{
+  position: relative;
+  left: 110px;
+  width: 28px;
+  height: 12px;
+  border-radius: 3px;
+}
+.card-star .rating img{
+  width: 9px;
+  height: 9px;
+}
+.card-star .rating .star-rate{
+  font-size: 8px;
+}
+.card-title strong{
+  font-size: 10px;
+  font-weight: 700;
+}
+#second-paragraph{
+  padding: 0px 0px;
+  position: relative;
+  right: 40px;
+}
+.second-nav{
+  overflow: hidden;
+}
+  }
+  @media only screen and (min-width: 768px) {
+    body{
+      width: 100%;
+    }
+   
+    #navigation #logo-1{
+      /* display: none; */
+      position: relative;
+      left: 27rem;
+      width: 95px;
+      height: 50px;
+    }
+    .navbar-light{
+      display: none;
+    }
+    .navbar-toggler-icon{
+      position: relative;
+      right: 20rem;
+    }
+    .form-inline-1 .form-control-1{
+      display: none;
+      width: auto;
+      vertical-align: middle;   
+    }
+    .form-inline-1 img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      bottom: 2px;
+       left: 14rem;
+    }
+    .navbar-light .navbar-toggler{
+      border: none;
+    }
+   div.paragraph{
+    position: relative;
+    right: 20px;
+    width: 100%;
+   }
+   .view-right{
+    position: relative;
+    left: 50px;
+   }
+   .box{
+     padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+.card{
+  flex-basis: 215px;
+  max-width: 100%;
+}
+.card-head .head-p{
+  width: 90px;
+}
+.card-head p b{
+  font-size: 7px;
+}
+.card-toplist .merge{
+  width: 70px;
+}
+.merge b{
+  font-size: 8px;
+}
+.card-star{
+  position: relative;
+  top: -19px;
+  width: 285.5px;
+  height: 24px;
+}
+.card-star> p b{
+  position: relative;
+  bottom: 3px;
+ font-size: 8px;
+  
+}
+.card-star .rating{
+  position: relative;
+  left: 181px;
+  width: 28px;
+  height: 12px;
+  border-radius: 3px;
+}
+.card-star .rating img{
+  width: 9px;
+  height: 9px;
+}
+.card-star .rating .star-rate{
+  font-size: 8px;
+}
+.card-title strong{
+  position: relative;
+  bottom: 2px;
+  font-size: 10px;
+  font-weight: 700;
+}
+#second-paragraph{
+  padding: 0px 0px;
+  position: relative;
+  right: 40px;
+}
+.second-nav{
+  overflow: hidden;
+}
   }
 
   .para{
@@ -47,11 +356,22 @@
     justify-content: space-between;
     padding: 10px;
   }
- 
+  button, select {
+    text-transform: none;
+}
+button, input {
+  overflow: visible;
+}
+ #sticky{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+ }
 #navigation{
   position: sticky;
     width: 100%;
-    top: 0;
+    top: 35px;
     z-index: 99;
 }
 
@@ -637,7 +957,7 @@ bottom: 80px;
 }
 #fourth-paragraph{
   position: relative;
-  bottom: 26rem;
+  bottom: 21rem;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -657,7 +977,7 @@ bottom: 80px;
   justify-content: center;
   gap: 19px;
   position: relative;
-  bottom: 29rem;
+  bottom: 26rem;
   
 }
 .shop-image img{
@@ -699,7 +1019,7 @@ bottom: 80px;
 }
 #sixth-paragraph{
   position: relative;
-  bottom: 31rem;
+  bottom: 29rem;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -708,7 +1028,7 @@ bottom: 80px;
   display: flex;
   padding: 50px;
   position: relative;
-  bottom: 33rem;
+  bottom: 29rem;
   right: 12px;
 }
 
@@ -727,7 +1047,7 @@ bottom: 80px;
 
 div.box-5{
     position: relative;
-    bottom: 38rem;
+    bottom: 33rem;
     width: 100%;
     padding: 50px;
     display: flex;
@@ -737,7 +1057,7 @@ div.box-5{
   }
   #eight-paragraph{
     position: relative;
-    bottom: 39rem;
+    bottom: 30rem;
     padding: 0px 50px;
     font-size: 30px;
   }
@@ -753,7 +1073,7 @@ div.box-5{
 
 .tribe-container{
   position: relative;
-  bottom: 41rem;
+  bottom: 33rem;
   width: 100%;
   padding: 50px;
   display: flex;
@@ -832,7 +1152,7 @@ div.box-5{
 }
 #nineth-paragraph{
  position: relative;
- bottom: 41rem;
+ bottom: 34rem;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -849,7 +1169,7 @@ div.box-5{
   display: flex;
   padding: 50px;
   position: relative;
-  bottom: 43rem;
+  bottom: 35rem;
   right: 12px;
 }
 
@@ -872,7 +1192,7 @@ div.box-5{
 }
 .portale-main{
   position: relative;
-  bottom: 48rem;
+  bottom: 37rem;
   display: flex;
   gap: 18px;
   padding: 50px;
@@ -922,7 +1242,7 @@ div.box-5{
 }
 #ten-paragraph{
   position: relative;
-  bottom: 48rem;
+  bottom: 34rem;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -939,7 +1259,7 @@ div.box-5{
 .testimonial-main{
   padding: 50px;
   position: relative;
-  bottom: 49rem;
+  bottom: 35rem;
 }
 
 .testimonial {
@@ -1029,7 +1349,7 @@ footer {
   background-color: #eff4f7;
   padding: 20px 0;
   position: relative;
-  bottom: 47rem;
+  bottom: 25em;
 }
 
 .footer-container {
@@ -1120,7 +1440,7 @@ right: 9rem;
 
 .footer-end {
   position: relative;
-  bottom: 47rem;
+  bottom: 25rem;
   background-color: #eff4f7;
   padding: 36px 0;
   text-align: center;
@@ -1160,3 +1480,4 @@ height: 18px;
   color: #1a2024;
   font-size: 13px;
 }
+
