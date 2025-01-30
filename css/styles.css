@@ -7,568 +7,6 @@
   body{
     font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
   }
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  /* Styles for small screens */
-  body{
-    width: 100%;
-  }
- 
-  #navigation #logo-1{
-    /* display: none; */
-    position: relative;
-    left: 45px;
-    width: 63px;
-    height: 50px;
-  }
-  .navbar-light{
-    display: none;
-  }
-  .navbar-toggler-icon{
-    position: relative;
-    right: 12rem;
-  }
-  .form-inline-1 .form-control-1{
-    display: none;
-    width: auto;
-    vertical-align: middle;   
-  }
-  .form-inline-1 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 2px;
-     left: 6.5rem;
-  }
-  .navbar-light .navbar-toggler{
-    border: none;
-  }
- div.paragraph{
-  position: relative;
-  right: 33px;
-  width: 100%;
- }
- .view-right{
-  position: relative;
-  left: 50px;
- }
- .box{
-   padding: 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  column-gap: .4rem;
-}
-.custom-card{
-width: 13rem;
-height: 17rem;
-}
-.card{
-flex-basis: 120px;
-max-width: 50%;
-}
-.card-head .head-p{
-width: 90px;
-}
-.card-head p b{
-font-size: 7px;
-}
-.card-toplist .merge{
-width: 70px;
-}
-.merge b{
-font-size: 8px;
-}
-.card-star{
-position: relative;
-top: -19px;
-width: 151.5px;
-height: 24px;
-}
-.card-star> p b{
-position: relative;
-bottom: 3px;
-font-size: 8px;
-
-}
-.card-star .rating{
-width: 21px;
-height: 10px;
-}
-.card-star .rating img{
-width: 9px;
-height: 9px;
-}
-.card-star .rating .star-rate{
-font-size: 8px;
-}
-.card-title strong{
-font-size: 10px;
-font-weight: 700;
-}
-#second-paragraph{
-padding: 0px 0px;
-position: relative;
-right: 40px;
-}
-.second-nav{
-overflow: hidden;
-}
-}
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  /* Styles for small devices */
-  body{
-    width: 100%;
-  }
- 
-  #navigation #logo-1{
-    /* display: none; */
-    position: relative;
-    left: 20rem;
-    width: 95px;
-    height: 50px;
-  }
-  .navbar-light{
-    display: none;
-  }
-  .navbar-toggler-icon{
-    position: relative;
-    right: 16rem;
-  }
-  .form-inline-1 .form-control-1{
-    display: none;
-    width: auto;
-    vertical-align: middle;   
-  }
-  .form-inline-1 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 2px;
-     left: 10rem;
-  }
-  .navbar-light .navbar-toggler{
-    border: none;
-  }
- div.paragraph{
-  position: relative;
-  right: 33px;
-  width: 100%;
- }
- .view-right{
-  position: relative;
-  left: 50px;
- }
- .box{
-   padding: 0px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  column-gap: 3rem;
-}
-.card{
-flex-basis: 210px;
-max-width: 100%;
-}
-.card-head .head-p{
-width: 90px;
-}
-.card-head p b{
-font-size: 7px;
-}
-.card-toplist .merge{
-width: 70px;
-}
-.merge b{
-font-size: 8px;
-}
-.card-star{
-position: relative;
-top: -19px;
-width: 212.5px;
-height: 24px;
-}
-.card-star> p b{
-position: relative;
-bottom: 3px;
-font-size: 8px;
-
-}
-.card-star .rating{
-position: relative;
-left: 110px;
-width: 28px;
-height: 12px;
-border-radius: 3px;
-}
-.card-star .rating img{
-width: 9px;
-height: 9px;
-}
-.card-star .rating .star-rate{
-font-size: 8px;
-}
-.card-title strong{
-font-size: 10px;
-font-weight: 700;
-}
-#second-paragraph{
-padding: 0px 0px;
-position: relative;
-right: 40px;
-}
-.second-nav{
-overflow: hidden;
-}
-}
-@media only screen and (min-width: 768px) {
-  body{
-    width: 100%;
-  }
- 
-  #navigation #logo-1{
-    /* display: none; */
-    position: relative;
-    left: 27rem;
-    width: 95px;
-    height: 50px;
-  }
-  .navbar-light{
-    display: none;
-  }
-  .navbar-toggler-icon{
-    position: relative;
-    right: 20rem;
-  }
-  .form-inline-1 .form-control-1{
-    display: none;
-    width: auto;
-    vertical-align: middle;   
-  }
-  .form-inline-1 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 2px;
-     left: 14rem;
-  }
-  .navbar-light .navbar-toggler{
-    border: none;
-  }
- div.paragraph{
-  position: relative;
-  right: 20px;
-  width: 100%;
- }
- .view-right{
-  position: relative;
-  left: 50px;
- }
- .box{
-   padding: 0px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  column-gap: 3rem;
-}
-.custom-card{
-width: 13rem;
-height: 20rem;
-}
-.card{
-flex-basis: 215px;
-max-width: 100%;
-}
-.card-head .head-p{
-width: 90px;
-}
-.card-head p b{
-font-size: 7px;
-}
-.card-toplist .merge{
-width: 70px;
-}
-.merge b{
-font-size: 8px;
-}
-.card-star{
-position: relative;
-top: -19px;
-width: 285.5px;
-height: 24px;
-}
-.card-star> p b{
-position: relative;
-bottom: 3px;
-font-size: 8px;
-
-}
-.card-star .rating{
-position: relative;
-left: 181px;
-width: 28px;
-height: 12px;
-border-radius: 3px;
-}
-.card-star .rating img{
-width: 9px;
-height: 9px;
-}
-.card-star .rating .star-rate{
-font-size: 8px;
-}
-.card-title strong{
-position: relative;
-bottom: 2px;
-font-size: 10px;
-font-weight: 700;
-}
-#second-paragraph{
-padding: 0px 0px;
-position: relative;
-right: 40px;
-}
-.second-nav{
-overflow: hidden;
-}
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  /* Styles for tablets */
-  body{
-    width: 100%;
-  }
- 
-  #navigation #logo-1{
-    /* display: none; */
-    position: relative;
-    left: 2rem;
-    width: 95px;
-    height: 50px;
-  }
-  
-  .navbar-light{
-    display: none;
-  }
-  .navbar-toggler-icon{
-    position: relative;
-    right: 20rem;
-  }
-  .form-inline-1 .form-control-1{
-    display: none;
-    width: auto;
-    vertical-align: middle;   
-  }
-  .form-inline-1 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -0.5rem;
-  }
-  .navbar-light .navbar-toggler{
-    border: none;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(/assets/images/Navbar.svg);
-}
- div.paragraph{
-  position: relative;
-  right: 20px;
-  width: 100%;
- }
- .view-right{
-  position: relative;
-  left: 50px;
- }
- .box{
-   padding: 0px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  column-gap: 3rem;
-}
-.custom-card{
-width: 13rem;
-height: 17rem;
-}
-.card{
-flex-basis: 50px;
-max-width: 100%;
-}
-.card-head .head-p{
-width: 90px;
-}
-.card-head p b{
-font-size: 7px;
-}
-.card-toplist .merge{
-width: 70px;
-}
-.merge b{
-font-size: 8px;
-}
-.card-star{
-position: relative;
-top: -19px;
-width: 142px;
-height: 24px;
-}
-.card-star> p b{
-position: relative;
-bottom: 3px;
-font-size: 8px;
-
-}
-.card-star .rating{
-position: relative;
-left: 42px;
-width: 28px;
-height: 12px;
-border-radius: 8px;
-}
-.card-star .rating img{
-width: 9px;
-height: 9px;
-}
-.card-star .rating .star-rate{
-font-size: 8px;
-}
-.card-title strong{
-position: relative;
-bottom: 2px;
-font-size: 13px;
-font-weight: 800;
-}
-#second-paragraph{
-padding: 0px 0px;
-position: relative;
-right: 40px;
-}
-.second-nav{
-overflow: hidden;
-}
-}
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  /* Styles for small desktops */
-  body{
-    width: 100%;
-  }
- 
-  #navigation #logo-1{
-    /* display: none; */
-    position: relative;
-    left: 2rem;
-    width: 95px;
-    height: 50px;
-  }
-  
-  .navbar-light{
-    display: none;
-  }
-  .navbar-toggler-icon{
-    position: relative;
-    right: 20rem;
-  }
-  .form-inline-1 .form-control-1{
-    display: none;
-    width: auto;
-    vertical-align: middle;   
-  }
-  .form-inline-1 img{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: -0.5rem;
-  }
-  .navbar-light .navbar-toggler{
-    border: none;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(/assets/images/Navbar.svg);
-}
- div.paragraph{
-  position: relative;
-  right: 20px;
-  width: 100%;
- }
- .view-right{
-  position: relative;
-  left: 50px;
- }
- .box{
-   padding: 0px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  column-gap: 3rem;
-}
-.custom-card{
-width: 13rem;
-height: 17rem;
-}
-.card{
-flex-basis: 50px;
-max-width: 100%;
-}
-.card-head .head-p{
-width: 90px;
-}
-.card-head p b{
-font-size: 7px;
-}
-.card-toplist .merge{
-width: 70px;
-}
-.merge b{
-font-size: 8px;
-}
-.card-star{
-position: relative;
-top: -19px;
-width: 180px;
-height: 24px;
-}
-.card-star> p b{
-position: relative;
-bottom: 3px;
-font-size: 8px;
-
-}
-.card-star .rating{
-position: relative;
-left: 42px;
-width: 28px;
-height: 12px;
-border-radius: 8px;
-}
-.card-star .rating img{
-width: 9px;
-height: 9px;
-}
-.card-star .rating .star-rate{
-font-size: 8px;
-}
-.card-title strong{
-position: relative;
-bottom: 2px;
-font-size: 13px;
-font-weight: 800;
-}
-#second-paragraph{
-padding: 0px 0px;
-position: relative;
-right: 40px;
-}
-.second-nav{
-overflow: hidden;
-}
-}
 
   .para{
     background-color: #eff4f7;
@@ -712,6 +150,10 @@ div.paragraph{
   letter-spacing: 0.1px;
   text-align: center;
   border-radius: 4px;
+}
+.custom-card{
+  width: 13rem;
+  height: 20rem;
 }
 
 div.card{
@@ -865,7 +307,7 @@ div.box{
 
 #second-paragraph{
   position: relative;
-  bottom: 140px;
+  bottom: 80px;
   padding: 0px 50px;
   font-size: 30px;
 }
@@ -1671,20 +1113,6 @@ right: 9rem;
   position: relative;
   left: 30px;
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .column {
-      margin-bottom: 20px;
-      text-align: center;
-  }
-}
-
-
 .footer-end {
   position: relative;
   bottom: 25rem;
@@ -1728,3 +1156,60 @@ height: 18px;
   font-size: 13px;
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Styles for small screens */
+
+  nav img#logo-1{
+    display: none;
+  }
+  .input-form img{
+    position: relative;
+    left: 11.5rem;
+  }
+  .input-form .input-tag{
+    display: none;
+  }
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-title{
+    font-size: 13px;
+  }
+  .custom-card{
+    width: 13rem;
+    height: 18rem;
+    flex-basis: 110px;
+  }
+  .card-star{
+    
+  }
+  .rating{
+    position: relative;
+    left: 20px;
+    width: 31px;
+    height: 16px;
+    border-radius: 35px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for tablets */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for small desktops */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Styles for larger desktops */
+}
